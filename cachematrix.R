@@ -3,7 +3,6 @@
 
 ## Since matrix inversion is usually a costly computation and there may be some benefit to caching 
 ## the inverse of a matrix rather than computing it. This function caches the inverse of a square matrix.
-repeatedlyThis function caches an inverse matrix
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
   set <- function(y) {
